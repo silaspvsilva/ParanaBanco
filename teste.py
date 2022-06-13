@@ -9,8 +9,6 @@ driver.maximize_window()
 driver.get('https://the-internet.herokuapp.com/challenging_dom')
 time.sleep(5)
 
-driver.find_element_by_xpath('//*[@id="content"]/div/div/div/div[2]/table/tbody/tr[1]/td[7]/a[1]').click()
-time.sleep(2)
 
 #clique Botão azul
 driver.find_element_by_xpath('/html/body/div[2]/div/div/div/div/div[1]/a[1]').click()
